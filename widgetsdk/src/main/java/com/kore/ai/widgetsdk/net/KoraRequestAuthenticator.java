@@ -34,7 +34,6 @@ import retrofit2.Call;
 
 
 /**
- * Created by Ramachandra Pradeep on 04-Jan-19.
  */
 
 public class KoraRequestAuthenticator implements Authenticator {

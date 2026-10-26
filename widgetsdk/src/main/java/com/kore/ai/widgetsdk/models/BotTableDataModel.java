@@ -3,7 +3,6 @@ package com.kore.ai.widgetsdk.models;
 import java.util.List;
 
 /**
- * Created by Ramachandra Pradeep on 30-Oct-17.
  */
 
 public class BotTableDataModel {

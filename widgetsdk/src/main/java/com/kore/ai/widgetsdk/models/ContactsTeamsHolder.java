@@ -5,7 +5,6 @@ import com.kore.ai.widgetsdk.utils.StringUtils;
 import java.io.Serializable;
 
 /**
- * Created by Shiva Krishna on 2/26/2018.
  */
 
 public class ContactsTeamsHolder implements Serializable {

@@ -14,7 +14,7 @@ import android.view.ViewGroup.LayoutParams;
 
 import androidx.annotation.NonNull;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.activities.PanelMainActivity;
 import com.kore.ai.widgetsdk.utils.DimensionUtil;
 import com.kore.ai.widgetsdk.utils.KaUtility;

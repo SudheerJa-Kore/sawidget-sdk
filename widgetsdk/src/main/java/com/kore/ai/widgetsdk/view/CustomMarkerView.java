@@ -9,10 +9,9 @@
 //import com.github.mikephil.charting.highlight.Highlight;
 //import com.github.mikephil.charting.utils.MPPointF;
 //import com.github.mikephil.charting.utils.Utils;
-//import com.kora.ai.widgetsdk.R;
+//import com.kore.ai.widgetsdk.R;
 //
 ///**
-// * Created by Shiva Krishna on 11/7/2017.
 // */
 //
 //public class CustomMarkerView extends MarkerView {

@@ -25,7 +25,6 @@ public final class KORestBuilder {
     private static Retrofit getBuilder(byte builderType, String URL) {
         synchronized (KORestBuilder.class) {
 /**
- * Created by Ramachandra Pradeep on 18-Jul-18.
  */
             if (instanceKora == null) {
                 instanceKora = new Retrofit.Builder()

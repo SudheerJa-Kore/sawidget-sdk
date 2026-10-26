@@ -3,8 +3,8 @@ package com.kore.ai.widgetsdk.adapters;
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
@@ -15,7 +15,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.fragments.FeedbackSheetFragment;
 import com.kore.ai.widgetsdk.interfaces.FeedBackButtonState;
 import com.kore.ai.widgetsdk.models.FeedbackDataResponse;
@@ -80,11 +80,11 @@ public class FeedBackAdapter extends RecyclerView.Adapter<FeedBackAdapter.FeedBa
             holder.edt_freetext.setVisibility(View.VISIBLE);
             holder.checkBox_btn.setVisibility(View.GONE);
             holder.tv_question.setVisibility(View.GONE);
-            holder.edt_freetext.setHint(options.get(position).getPlaceholder());
-            holder.edt_freetext.setText(options.get(position).getUserAnswer());
+            holder.edt_freetext.setHint(options.get(holder.getAbsoluteAdapterPosition()).getPlaceholder());
+            holder.edt_freetext.setText(options.get(holder.getAbsoluteAdapterPosition()).getUserAnswer());
 
             //   if (getItemCount() == 1) {
-            options.get(position).setUserAction(true);
+            options.get(holder.getAbsoluteAdapterPosition()).setUserAction(true);
             if (getItemCount() == 1) {
                 holder.edt_freetext.requestFocus();
             } else {
@@ -99,44 +99,25 @@ public class FeedBackAdapter extends RecyclerView.Adapter<FeedBackAdapter.FeedBa
         }
 
 
-        holder.edt_freetext.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (!hasFocus) {
-                    try {
-                        final InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
-                        imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
-                    } catch (Exception e) {
-
-                    }
+        holder.edt_freetext.setOnFocusChangeListener((v, hasFocus) -> {
+            if (!hasFocus) {
+                try {
+                    final InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+                } catch (Exception e) {
+                    Log.d("Error", e.toString());
                 }
             }
         });
 
-        holder.edt_freetext.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-                if (holder.edt_freetext.hasFocus()) {
-                    v.getParent().requestDisallowInterceptTouchEvent(true);
-                    switch (event.getAction() & MotionEvent.ACTION_MASK) {
-                        case MotionEvent.ACTION_SCROLL:
-                            v.getParent().requestDisallowInterceptTouchEvent(false);
-                            return true;
-                    }
-                }
-                return false;
-            }
-        });
-        holder.checkBox_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        holder.checkBox_btn.setOnClickListener(v -> {
 
-                options.get(position).setUserAction(holder.checkBox_btn.isChecked());
+            options.get(holder.getAbsoluteAdapterPosition()).setUserAction(holder.checkBox_btn.isChecked());
 
-                if (options.get(position).getAction().equalsIgnoreCase("inputText")) {
-                    holder.edt_freetext.setVisibility(holder.checkBox_btn.isChecked() ? View.VISIBLE : View.GONE);
-                }
-                refreshButtonState();
+            if (options.get(holder.getAbsoluteAdapterPosition()).getAction().equalsIgnoreCase("inputText")) {
+                holder.edt_freetext.setVisibility(holder.checkBox_btn.isChecked() ? View.VISIBLE : View.GONE);
             }
+            refreshButtonState();
         });
 
 
@@ -156,7 +137,7 @@ public class FeedBackAdapter extends RecyclerView.Adapter<FeedBackAdapter.FeedBa
             public void onTextChanged(CharSequence s, int start,
                                       int before, int count) {
                 String data = s.toString().trim();
-                options.get(position).setUserAnswer(data);
+                options.get(holder.getAbsoluteAdapterPosition()).setUserAnswer(data);
                 /*if (StringUtils.isNullOrEmptyWithTrim(data)) {
                   // options.get(position).setUserAction(false);
                     refreshButtonState();

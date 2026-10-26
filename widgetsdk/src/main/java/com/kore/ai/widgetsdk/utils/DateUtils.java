@@ -2,7 +2,7 @@ package com.kore.ai.widgetsdk.utils;
 
 import android.content.Context;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 
 import java.text.DateFormatSymbols;
 import java.text.Format;
@@ -15,7 +15,6 @@ import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Pradeep Mahato on 09-Jun-16.
  * Copyright (c) 2014 Kore Inc. All rights reserved.
  */
 public class DateUtils {

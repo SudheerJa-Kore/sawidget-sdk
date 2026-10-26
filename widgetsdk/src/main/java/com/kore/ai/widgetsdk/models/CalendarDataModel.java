@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.models;
 
 /**
- * Created by Ramachandra Pradeep on 28-Aug-18.
  */
 
 public class CalendarDataModel {

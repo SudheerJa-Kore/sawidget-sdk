@@ -20,7 +20,6 @@ import kore.botssdk.application.AppControl;
 
 */
 /**
- * Created by Shiva Krishna on 1/17/2018.
  *//*
 
 

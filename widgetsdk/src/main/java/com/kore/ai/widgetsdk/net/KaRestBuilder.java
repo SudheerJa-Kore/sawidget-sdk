@@ -23,7 +23,6 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by Ramachandra Pradeep on 27-Oct-18.
  */
 
 public class KaRestBuilder {

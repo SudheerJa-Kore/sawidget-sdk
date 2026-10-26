@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.applicationcontrol;
 
 /**
- * Created by Ramachandra Pradeep on 6/24/2016.
  */
 
 public class ApplicationControl {

@@ -31,7 +31,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.adapters.KaWidgetBaseAdapterNew;
 import com.kore.ai.widgetsdk.adapters.PannelAdapter;
 import com.kore.ai.widgetsdk.application.AppControl;
@@ -243,7 +243,7 @@ public class BottomPanelFragment extends KaBaseFragment implements PanelInterfac
 //                    ((KoraMainActivity) getActivity()).dismissMainLoader();
                     progressBarPanel.setVisibility(View.GONE);
                     if (pannelAdapter == null || pannelAdapter.getItemCount() <= 0) {
-                        emptyPanelView.setText(getString(com.kora.ai.widgetsdk.R.string.oops));
+                        emptyPanelView.setText(getString(com.kore.ai.widgetsdk.R.string.oops));
                         emptyPanelView.setTypeface(KaFontUtils.getCustomTypeface("regular", getActivity()));
                         emptyPanelView.setVisibility(View.VISIBLE);
                     } else {
@@ -256,7 +256,7 @@ public class BottomPanelFragment extends KaBaseFragment implements PanelInterfac
             public void onFailure(Call<List<PanelResponseData.Panel>> call, Throwable t) {
                 progressBarPanel.setVisibility(View.GONE);
                 if (pannelAdapter == null || pannelAdapter.getItemCount() <= 0) {
-                    emptyPanelView.setText(getString(com.kora.ai.widgetsdk.R.string.oops));
+                    emptyPanelView.setText(getString(com.kore.ai.widgetsdk.R.string.oops));
                     emptyPanelView.setTypeface(KaFontUtils.getCustomTypeface("regular", getActivity()));
                     emptyPanelView.setVisibility(View.VISIBLE);
                 } else {

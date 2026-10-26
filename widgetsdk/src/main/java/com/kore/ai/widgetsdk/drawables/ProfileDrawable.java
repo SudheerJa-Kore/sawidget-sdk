@@ -8,7 +8,6 @@ import android.graphics.PixelFormat;
 import android.graphics.Typeface;
 
 /**
- * Created by nicholaspontiff on 7/16/15.
  * Copyright (c) 2014 Kore Inc. All rights reserved.
  */
 public class ProfileDrawable extends BaseDrawable {

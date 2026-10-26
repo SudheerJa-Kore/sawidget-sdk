@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Ramachandra Pradeep on 12/15/2016.
  */
 public class PayloadInner {
 

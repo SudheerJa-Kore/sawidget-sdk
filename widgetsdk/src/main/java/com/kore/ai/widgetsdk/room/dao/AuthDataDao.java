@@ -14,7 +14,6 @@ import java.util.List;
 import static androidx.room.OnConflictStrategy.REPLACE;
 
 /**
- * Created by Ramachandra Pradeep on 20-Jul-18.
  */
 
 @Dao

@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.events;
 
 /**
- * Created by amit on 7/13/2015.
  */
 public class ComponentPlaybackPublisher {
 

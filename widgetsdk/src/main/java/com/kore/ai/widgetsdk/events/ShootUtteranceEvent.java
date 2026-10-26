@@ -3,7 +3,6 @@ package com.kore.ai.widgetsdk.events;
 import java.util.HashMap;
 
 /**
- * Created by Ramachandra Pradeep on 03-Apr-19.
  */
 
 public class ShootUtteranceEvent {

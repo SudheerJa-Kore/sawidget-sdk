@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.utils;
 
 /**
- * Created by Shiva Krishna on 10/23/2017.
  */
 
 
@@ -15,7 +14,7 @@ import android.widget.TextView;
 
 import androidx.core.content.res.ResourcesCompat;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.net.SDKConfiguration;
 
 public class KaFontUtils {

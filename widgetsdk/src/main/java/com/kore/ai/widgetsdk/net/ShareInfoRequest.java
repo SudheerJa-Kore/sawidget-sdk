@@ -10,7 +10,6 @@ import retrofit2.Callback;
 
 
 /**
- * Created by Shiva Krishna on 2/23/2018.
  */
 
 public class ShareInfoRequest {

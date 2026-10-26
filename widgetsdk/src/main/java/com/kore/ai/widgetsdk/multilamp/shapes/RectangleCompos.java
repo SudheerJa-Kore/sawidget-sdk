@@ -13,7 +13,7 @@ import android.util.Log;
 
 import androidx.core.content.res.ResourcesCompat;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.multilamp.customView.MultiLamp;
 import com.kore.ai.widgetsdk.multilamp.model.Target;
 

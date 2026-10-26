@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.models;
 
 /**
- * Created by Ramachandra Pradeep on 12/16/2016.
  */
 public class QuickReplyTemplate {
 

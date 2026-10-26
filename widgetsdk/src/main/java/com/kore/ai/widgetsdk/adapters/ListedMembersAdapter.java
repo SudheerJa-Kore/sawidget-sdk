@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.models.ContactsTeamsHolder;
 import com.kore.ai.widgetsdk.utils.KaFontUtils;
 import com.kore.ai.widgetsdk.utils.StringUtils;
@@ -17,7 +17,6 @@ import com.kore.ai.widgetsdk.view.ProfileTextView;
 import java.util.ArrayList;
 
 /**
- * Created by Shiva Krishna on 6/25/2018.
  */
 
 public class ListedMembersAdapter extends BaseAdapter {

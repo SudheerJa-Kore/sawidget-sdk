@@ -20,7 +20,7 @@ import androidx.annotation.RequiresApi;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.activities.GenericWebViewActivity;
 import com.kore.ai.widgetsdk.listeners.ComposeFooterInterface;
 import com.kore.ai.widgetsdk.listeners.RecyclerViewDataAccessor;
@@ -40,7 +40,6 @@ import java.util.List;
 import static com.kore.ai.widgetsdk.utils.DimensionUtil.dp1;
 
 /**
- * Created by Ramachandra Pradeep on 01-Apr-19.
  */
 
 public class ChartListWidgetAdapter extends RecyclerView.Adapter implements RecyclerViewDataAccessor {

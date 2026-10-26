@@ -18,7 +18,6 @@ import com.kore.ai.widgetsdk.room.models.BotDBMessage;
 import com.kore.ai.widgetsdk.room.models.UserData;
 
 /**
- * Created by Ramachandra Pradeep on 20-Jul-18.
  */
 
 @Database(entities = {UserData.class, AuthData.class, BotDBMessage.class}, version = 3)

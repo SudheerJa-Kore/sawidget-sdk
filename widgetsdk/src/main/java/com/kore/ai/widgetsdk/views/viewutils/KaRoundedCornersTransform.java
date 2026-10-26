@@ -13,7 +13,6 @@ import com.squareup.picasso.Transformation;
 import static com.kore.ai.widgetsdk.utils.DimensionUtil.dp1;
 
 /**
- * Created by Shiva Krishna on 3/14/2018.
  */
 
 public class KaRoundedCornersTransform implements Transformation {

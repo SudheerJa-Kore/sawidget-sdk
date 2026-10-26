@@ -3,7 +3,6 @@ package com.kore.ai.widgetsdk.models;
 import java.util.ArrayList;
 
 /**
- * Created by Shiva Krishna on 6/15/2018.
  */
 
 public class MeetingSlotModel {

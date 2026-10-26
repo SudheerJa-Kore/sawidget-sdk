@@ -13,7 +13,6 @@ import static com.kore.ai.widgetsdk.utils.DimensionUtil.dp1;
 import androidx.appcompat.widget.AppCompatTextView;
 
 /**
- * Created by Shiva Krishna on 2/22/2018.
  */
 
 public class ProfileTextView extends AppCompatTextView {

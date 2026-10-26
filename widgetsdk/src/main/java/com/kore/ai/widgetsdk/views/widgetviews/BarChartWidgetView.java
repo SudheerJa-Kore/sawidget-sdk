@@ -23,7 +23,7 @@
 //import com.github.mikephil.charting.formatter.ValueFormatter;
 //import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 //import com.github.mikephil.charting.utils.ColorTemplate;
-//import com.kora.ai.widgetsdk.R;
+//import com.kore.ai.widgetsdk.R;
 //import com.kore.ai.widgetsdk.formatters.BarChartDataFormatter;
 //import com.kore.ai.widgetsdk.interfaces.PinUnPinnCallBack;
 //import com.kore.ai.widgetsdk.managers.UserDataManager;

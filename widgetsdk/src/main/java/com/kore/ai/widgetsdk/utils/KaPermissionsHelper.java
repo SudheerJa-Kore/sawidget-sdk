@@ -13,7 +13,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
 /**
- * Created by Shiva Krishna on 11/15/2017.
  */
 public class KaPermissionsHelper {
     public static final int GET_ACCOUNT_PERMISSION = 82;

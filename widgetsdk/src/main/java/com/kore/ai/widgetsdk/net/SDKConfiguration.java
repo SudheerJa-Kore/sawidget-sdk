@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.net;
 
 /**
- * Created by Ramachandra on 30-May-16.
  * Copyright (c) 2014 Kore Inc. All rights reserved.
  */
 

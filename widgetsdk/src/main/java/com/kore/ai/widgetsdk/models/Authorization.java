@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Ramachandra Pradeep on 6/1/2016.
  */
 public class Authorization {
     private String identity;

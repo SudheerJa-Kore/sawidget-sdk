@@ -41,7 +41,7 @@ import androidx.core.content.res.ResourcesCompat;
 //import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.google.gson.Gson;
 import com.google.gson.internal.LinkedTreeMap;
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.activities.PanelMainActivity;
 import com.kore.ai.widgetsdk.application.AppControl;
 import com.kore.ai.widgetsdk.events.KoreEventCenter;
@@ -95,7 +95,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 /**
- * Created by Shiva Krishna on 2/26/2018.
  */
 
 public class KaUtility {

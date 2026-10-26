@@ -7,10 +7,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 
 /**
- * Created by Ramachandra Pradeep on 27-Mar-18.
  */
 
 public class BotAppCompactActivity extends AppCompatActivity {

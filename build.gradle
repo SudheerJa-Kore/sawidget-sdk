@@ -1,7 +1,22 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id 'com.android.application' version '7.2.1' apply false
-    id 'com.android.library' version '7.2.1' apply false
+    id 'com.android.application' version '8.1.4' apply false
+    id 'com.android.library' version '8.1.4' apply false
+}
+
+allprojects {
+    dependencies {
+        components {
+            withModule('com.eftimoff:android-pathview') { ComponentMetadataDetails details ->
+                details.allVariants { variant ->
+                    variant.withFiles {
+                        removeAllFiles()
+                        addFile('android-pathview-1.0.8.aar')
+                    }
+                }
+            }
+        }
+    }
 }
 
 task clean(type: Delete) {

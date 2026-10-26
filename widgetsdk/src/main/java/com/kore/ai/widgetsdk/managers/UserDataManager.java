@@ -22,7 +22,6 @@ import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
 
 /**
- * Created by Ramachandra Pradeep on 20-Jul-18.
  */
 
 public class UserDataManager {

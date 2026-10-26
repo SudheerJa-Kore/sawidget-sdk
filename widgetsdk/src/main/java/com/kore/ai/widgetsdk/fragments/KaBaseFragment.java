@@ -14,13 +14,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
 import com.google.gson.Gson;
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.utils.AppUtils;
 import com.kore.ai.widgetsdk.utils.ToastUtils;
 
 
 /**
- * Created by Shiva Krishna on 11/17/2017.
  * Name: BaseActivity
  * Description:  This class is to get the global use in the application.
  **/

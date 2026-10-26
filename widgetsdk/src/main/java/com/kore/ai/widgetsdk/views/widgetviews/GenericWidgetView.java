@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.application.AppControl;
 import com.kore.ai.widgetsdk.cache.PanelDataLRUCache;
 import com.kore.ai.widgetsdk.events.KaEvents;
@@ -48,7 +48,6 @@ import retrofit2.Response;
 import static com.kore.ai.widgetsdk.utils.AppUtils.getMapObject;
 
 /**
- * Created by Ramachandra Pradeep on 23-Apr-19.
  */
 
 public class GenericWidgetView extends LinearLayout {

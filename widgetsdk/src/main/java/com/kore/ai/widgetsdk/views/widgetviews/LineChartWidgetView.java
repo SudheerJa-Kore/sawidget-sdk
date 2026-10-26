@@ -19,7 +19,7 @@
 //import com.github.mikephil.charting.data.LineDataSet;
 //import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 //import com.github.mikephil.charting.utils.ColorTemplate;
-//import com.kora.ai.widgetsdk.R;
+//import com.kore.ai.widgetsdk.R;
 //import com.kore.ai.widgetsdk.interfaces.PinUnPinnCallBack;
 //import com.kore.ai.widgetsdk.managers.UserDataManager;
 //import com.kore.ai.widgetsdk.models.BaseCalenderTemplateModel;

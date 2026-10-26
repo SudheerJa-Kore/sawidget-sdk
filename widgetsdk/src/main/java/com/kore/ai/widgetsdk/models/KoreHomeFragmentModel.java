@@ -5,7 +5,6 @@ import android.graphics.drawable.Drawable;
 import androidx.fragment.app.Fragment;
 
 /**
- * Created by Shiva Krishna on 6/24/2016.
  */
 public class KoreHomeFragmentModel {
     public enum HomeFragmentStates {

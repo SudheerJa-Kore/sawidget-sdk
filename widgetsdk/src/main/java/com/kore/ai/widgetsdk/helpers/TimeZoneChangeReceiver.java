@@ -9,7 +9,6 @@ import com.kore.ai.widgetsdk.events.KoreEventCenter;
 import com.kore.ai.widgetsdk.events.TimeZoneChangedEvent;
 
 /**
- * Created by Ramachandra Pradeep on 14-Feb-19.
  */
 
 

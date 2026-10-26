@@ -13,7 +13,6 @@ import com.kore.ai.widgetsdk.utils.WidgetViewMoreEnum;
 import com.kore.ai.widgetsdk.views.widgetviews.GenericWidgetView;
 
 /**
- * Created by Ramachandra Pradeep on 28-Mar-19.
  */
 
 public class GenericWidgetViewPagerAdapter extends PagerAdapter {

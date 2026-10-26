@@ -3,7 +3,6 @@ package com.kore.ai.widgetsdk.models;
 import java.util.ArrayList;
 
 /**
- * Created by Anil Kumar on 12/20/2016.
  */
 public class ListTemplate {
 

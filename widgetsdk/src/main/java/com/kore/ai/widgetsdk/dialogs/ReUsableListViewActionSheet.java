@@ -10,11 +10,10 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.utils.KaFontUtils;
 
 /**
- * Created by Shiva Krishna on 1/22/2018.
  */
 
 public class ReUsableListViewActionSheet extends Dialog {

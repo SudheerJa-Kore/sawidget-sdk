@@ -1,13 +1,11 @@
 package com.kore.ai.widgetsdk.network;
 
 /**
- * Created by Ramachandra Pradeep on 02-Mar-18.
  */
 
 import android.net.NetworkInfo;
 
 /**
- * Created by Pradeep on 09-Jul-15.
  */
 public class NetworkEvents {
 

@@ -6,7 +6,6 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 /**
- * Created by Ramachandra Pradeep on 09-Aug-18.
  */
 
 public class KaFileLookupModel {

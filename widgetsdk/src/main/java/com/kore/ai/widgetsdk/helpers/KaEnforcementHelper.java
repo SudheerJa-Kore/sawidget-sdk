@@ -6,7 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.widget.Toast;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.events.KaAuthErrorCodes;
 import com.kore.ai.widgetsdk.events.KaAuthenticationErrorEvents;
 import com.kore.ai.widgetsdk.events.KoreEventCenter;

@@ -20,7 +20,7 @@ import android.widget.Toast;
 import androidx.fragment.app.FragmentActivity;
 
 import com.google.gson.Gson;
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.activities.GenericWebViewActivity;
 import com.kore.ai.widgetsdk.adapters.BotTableListTemlateAdapter;
 import com.kore.ai.widgetsdk.events.EntityEditEvent;

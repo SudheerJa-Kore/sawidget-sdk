@@ -3,7 +3,6 @@ package com.kore.ai.widgetsdk.models;
 import com.kore.ai.widgetsdk.utils.Utils;
 
 /**
- * Created by Ramachandra Pradeep on 01-Apr-19.
  */
 
 public class TaskOwner {

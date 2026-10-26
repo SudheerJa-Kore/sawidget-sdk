@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.models;
 
 /**
- * Created by Anil Kumar on 12/20/2016.
  */
 public class ListTemplateButton {
 

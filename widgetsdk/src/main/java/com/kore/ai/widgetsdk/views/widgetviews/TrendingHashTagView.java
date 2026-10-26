@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.adapters.HashTagWidgetAdapter;
 import com.kore.ai.widgetsdk.application.AppControl;
 import com.kore.ai.widgetsdk.cache.PanelDataLRUCache;

@@ -20,7 +20,6 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
- * Created by Ramachandra Pradeep on 18-Jul-18.
  */
 
 public interface KORestAPI {

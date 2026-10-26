@@ -16,7 +16,7 @@ import android.service.autofill.UserData;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.models.KoreMedia;
 
 import java.io.File;
@@ -27,7 +27,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * Created by Shiva Krishna on 4/5/2018.
  */
 
 public class BitmapUtils {

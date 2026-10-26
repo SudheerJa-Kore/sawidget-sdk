@@ -5,7 +5,6 @@ import android.content.Context;
 import com.kore.ai.widgetsdk.utils.DimensionUtil;
 
 /**
- * Created by Pradeep Mahato on 31-May-16.
  * Copyright (c) 2014 Kore Inc. All rights reserved.
  */
 public class AppControl {

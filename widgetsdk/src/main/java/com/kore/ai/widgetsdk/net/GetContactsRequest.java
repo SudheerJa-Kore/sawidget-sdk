@@ -6,7 +6,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 
 /**
- * Created by Shiva Krishna on 6/28/2018.
  */
 
 public class GetContactsRequest {

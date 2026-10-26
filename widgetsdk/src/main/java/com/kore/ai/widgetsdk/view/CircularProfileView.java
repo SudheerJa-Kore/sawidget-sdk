@@ -12,7 +12,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.application.AppControl;
 import com.kore.ai.widgetsdk.drawables.ProfileDrawable;
 import com.kore.ai.widgetsdk.utils.StringConstants;
@@ -25,7 +25,6 @@ import com.squareup.picasso.Transformation;
 import java.io.File;
 
 /**
- * Created by tapasya on 01/10/15.
  * Copyright (c) 2014 Kore Inc. All rights reserved.
  */
 public class CircularProfileView extends RoundedImageView {

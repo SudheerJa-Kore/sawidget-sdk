@@ -3,7 +3,6 @@ package com.kore.ai.widgetsdk.models;
 import java.util.List;
 
 /**
- * Created by Ramachandra Pradeep on 11-Mar-19.
  */
 
 public class WUpcomingMeetingModel extends WidgetBaseDataModel {

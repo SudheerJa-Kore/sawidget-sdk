@@ -4,7 +4,6 @@ import com.kore.ai.widgetsdk.utils.StringUtils;
 import com.kore.ai.widgetsdk.utils.Utils;
 
 /**
- * Created by Ramachandra Pradeep on 01-Apr-19.
  */
 
 public class TaskAssignee {

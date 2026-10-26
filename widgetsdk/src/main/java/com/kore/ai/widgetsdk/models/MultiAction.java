@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.models;
 
 /**
- * Created by Ramachandra Pradeep on 11-Mar-19.
  */
 
 public class MultiAction {

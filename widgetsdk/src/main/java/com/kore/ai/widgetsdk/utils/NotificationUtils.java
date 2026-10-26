@@ -7,7 +7,6 @@ import java.util.Locale;
 import java.util.TimeZone;
 
 /**
- * Created by Ramachandra Pradeep on 30-Oct-18.
  */
 
 public class NotificationUtils {

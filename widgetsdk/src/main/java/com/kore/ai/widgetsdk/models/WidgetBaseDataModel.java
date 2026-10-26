@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.models;
 
 /**
- * Created by Ramachandra Pradeep on 01-Apr-19.
  */
 
 public abstract class WidgetBaseDataModel {

@@ -10,7 +10,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 /**
- * Created by Ramachandra Pradeep on 01-Mar-19.
  */
 
 public class KaWidgetPagerAdapter extends FragmentPagerAdapter{

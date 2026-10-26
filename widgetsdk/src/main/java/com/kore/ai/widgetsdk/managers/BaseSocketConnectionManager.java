@@ -13,7 +13,6 @@ import kore.botssdk.websocket.SocketConnectionListener;
 
 */
 /**
- * Created by Ramachandra Pradeep on 03-Jan-18.
  *//*
 
 

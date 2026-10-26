@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.kora.ai.widgetsdk.R;
+import com.kore.ai.widgetsdk.R;
 import com.kore.ai.widgetsdk.adapters.SkillsAdapter;
 import com.kore.ai.widgetsdk.models.PayloadInner;
 import com.kore.ai.widgetsdk.utils.BundleConstants;

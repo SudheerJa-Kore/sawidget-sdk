@@ -47,7 +47,7 @@
 //import com.github.mikephil.charting.utils.ColorTemplate;
 //import com.google.gson.Gson;
 //import com.google.gson.reflect.TypeToken;
-//import com.kora.ai.widgetsdk.R;
+//import com.kore.ai.widgetsdk.R;
 //import com.kore.ai.widgetsdk.activities.GenericWebViewActivity;
 //import com.kore.ai.widgetsdk.adapters.ButtonListAdapter;
 //import com.kore.ai.widgetsdk.events.EntityEditEvent;

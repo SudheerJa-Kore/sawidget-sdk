@@ -13,7 +13,6 @@ import java.util.List;
 import static androidx.room.OnConflictStrategy.REPLACE;
 
 /**
- * Created by Ramachandra Pradeep on 26-Oct-18.
  */
 
 @Dao

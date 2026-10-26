@@ -14,7 +14,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 /**
- * Created by Ramachandra Pradeep on 27-Oct-18.
  */
 
 public class KaRestAPIHelper {

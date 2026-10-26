@@ -13,7 +13,6 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 /**
- * Created by Ramachandra Pradeep on 26-Oct-18.
  */
 
 @Entity(tableName = "bot_db_message")

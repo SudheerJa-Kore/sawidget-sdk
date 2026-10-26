@@ -3,7 +3,6 @@ package com.kore.ai.widgetsdk.models;
 import com.kore.ai.widgetsdk.restresponse.KaRestResponse;
 
 /**
- * Created by Pradeep Mahato on 03-Jun-16.
  * Copyright (c) 2014 Kore Inc. All rights reserved.
  */
 

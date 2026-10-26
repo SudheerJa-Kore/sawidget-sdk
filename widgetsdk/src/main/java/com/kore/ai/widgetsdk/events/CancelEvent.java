@@ -1,7 +1,6 @@
 package com.kore.ai.widgetsdk.events;
 
 /**
- * Created by Ramachandra Pradeep on 05-Mar-19.
  */
 
 public class CancelEvent {
