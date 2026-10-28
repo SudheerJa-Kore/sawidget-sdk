@@ -66,9 +66,9 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = project.findProperty('group') ?: 'com.github.SudheerJa-Kore'
+                groupId = providers.gradleProperty('group').orElse('com.github.SudheerJa-Kore').get()
                 artifactId = 'sawidget-sdk'
-                version = project.findProperty('version') ?: '0.1.0'
+                version = providers.gradleProperty('version').orElse('0.1.0').get()
                 from components.release
             }
         }
